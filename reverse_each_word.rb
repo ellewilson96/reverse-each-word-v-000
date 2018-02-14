@@ -1,7 +1,7 @@
+sentences = []
 def reverse_each_word(sentence)
-  my_statements = []
-  sentence.each do |topping|
-    my_statements << "I love #{topping} on my burgers!"
+  sentences.each do |reversed|
+    sentences << sentence.reverse
   end
-  my_statements
+  sentences
 end
