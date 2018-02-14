@@ -1,8 +1,8 @@
 
 
 def reverse_each_word(sentence)
-  Array.new(sentence)
-  sentence.each do |reversed|
-    reversed.reverse
+  reversed = Array.new(sentence)
+  reversed.each do |flip|
+    flip.reverse
   end
 end
