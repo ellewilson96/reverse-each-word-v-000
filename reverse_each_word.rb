@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
   sentence.collect do |reversed|
     reversed.reverse
     sentence << reversed
-    puts "#{reversed}"
+    puts "#{sentence}"
   end
 end
