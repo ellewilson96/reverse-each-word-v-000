@@ -1,9 +1,7 @@
-reversed =[]
-
 def reverse_each_word(sentence)
-  reversed =[]
-  "#{sentence}".collect do |flip|
-    reversed << flip.reverse
+  my_statements = []
+  sentence.each do |topping|
+    my_statements << "I love #{topping} on my burgers!"
   end
-  puts reversed
+  my_statements
 end
