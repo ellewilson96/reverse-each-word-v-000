@@ -7,5 +7,4 @@ def reverse_each_word(sentence)
     sentence << reversed
     puts "#{reversed}"
   end
-
 end
