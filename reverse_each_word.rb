@@ -3,7 +3,7 @@
 def reverse_each_word(sentence)
   sentence = []
   sentence.collect do |reversed|
-    reversed.reverse << sentence
-    puts "I love #{reversed} on my burgers!"
+    sentence << reversed.reverse 
+    puts sentence
   end
 end
